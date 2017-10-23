@@ -1,5 +1,7 @@
 
 
+import numpy as np
+
 # "Spot" is going to be a vector, "Strike" is going to be a scalar
 # This is vectorizing the payoff function
 def CallPayOff(Spot, Strike):
