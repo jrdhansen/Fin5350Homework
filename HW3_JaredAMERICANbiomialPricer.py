@@ -1,6 +1,7 @@
 
 
 import numpy as np
+from scipy.stats import binom
 
 
 # "Spot" is going to be a vector, "Strike" is going to be a scalar
