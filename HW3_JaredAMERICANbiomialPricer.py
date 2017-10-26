@@ -50,13 +50,13 @@ def AmericanBinomial(option, S, r, beta, sigma, N):
 
     for i in range(numNodes):
         spotPriceArray[i] = S * (u ** (numSteps - i)) * (d ** (i))
-        callValueArray[i] = CallPayOff(spotPriceArray[i], X)
+        callValueArray[i] = option.value(spotPriceArray[i])
 
     for i in range((numSteps-1), -1, -1):
         for j in range (i+1):
             callValueArray[j] = discountedPriceUp * callValueArray[j] + discountedpriceDown * callValueArray[j+1]
             spotPriceArray[j] = spotPriceArray[j] / u
-            callValueArray[j] = np.maximum(callValueArray[j], option.value(spotPriceArray[j], X))
+            callValueArray[j] = np.maximum(callValueArray[j], option.value(spotPriceArray[j]))
     return callValueArray[0]
 
 
@@ -72,7 +72,7 @@ def main():
     sigma = 0.30
 
 
-    callPrice = AmericanBinomial(S, X, r, beta, sigma, T, N)
+    callPrice = AmericanBinomial(option, S, r, beta, sigma, N)
     print("The N-Period American Binomial Price is = {0:.4f}".format(callPrice))
 
 
