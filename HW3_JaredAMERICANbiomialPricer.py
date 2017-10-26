@@ -4,6 +4,23 @@ import numpy as np
 from scipy.stats import binom
 
 
+class VanillaPayoff(object):
+    def __init__(self, strike, expiry):
+        self.strike = strike
+        self.expiry = expiry
+        
+    def value(self):
+        pass
+    
+class VanillaCallPayoff(VanillaPayoff):
+    def value(self, spot):
+        return np.maximum(spot - self.strike, 0.0)
+    
+class VanillaPutPayoff(VanillaPayoff):
+    def value(self, spot):
+        return np.maximum(self.strike - spot, 0.0)
+
+
 # "Spot" is going to be a vector, "Strike" is going to be a scalar
 # This is vectorizing the payoff function
 def CallPayOff(Spot, Strike):
@@ -12,8 +29,10 @@ def CallPayOff(Spot, Strike):
 
 # Prices options with the European Binomial model
 # strike price, spot price, risk free rate, up, down, T
-def AmericanBinomial(S, X, r, beta, sigma, T, N):
+def AmericanBinomial(option, S, r, beta, sigma, N):
     # number of steps in the tree
+    T = option.expiry
+    X = option.strike
     H = T / N
     numSteps = N
     numNodes = numSteps + 1
@@ -37,16 +56,17 @@ def AmericanBinomial(S, X, r, beta, sigma, T, N):
         for j in range (i+1):
             callValueArray[j] = discountedPriceUp * callValueArray[j] + discountedpriceDown * callValueArray[j+1]
             spotPriceArray[j] = spotPriceArray[j] / u
-            callValueArray[j] = np.maximum(callValueArray[j], CallPayOff(spotPriceArray[j], X))
+            callValueArray[j] = np.maximum(callValueArray[j], option.value(spotPriceArray[j], X))
     return callValueArray[0]
 
 
 
 def main():
+    X = 41
+    T = 1.0
+    option = VanillaCallPayoff(X, T)
     S = 41
-    X = 40
     r = 0.08
-    T = 1
     N = 3
     beta = 0.0
     sigma = 0.30
