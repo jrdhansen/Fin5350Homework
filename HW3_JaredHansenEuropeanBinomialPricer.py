@@ -25,7 +25,7 @@ class VanillaPutPayoff(VanillaPayoff):
 
 # Prices options with the European Binomial model
 # strike price, spot price, risk free rate, up, down, T
-def EuropeanBinomial(S, X, r, beta, sigma, T, N):
+def EuropeanBinomial(S, option, r, beta, sigma, T, N):
     # number of steps in the tree
     H = T / N
     numSteps = N
@@ -47,7 +47,7 @@ def main():
     S = 41
     X = 40
     T = 1
-    option = VanillaCallPayoff(X, T)
+    option = VanillaPutPayoff(X, T)
     r = 0.08
     N = 3
     beta = 0.0
@@ -55,7 +55,7 @@ def main():
     # u = 1.2
     # d = 0.8
 
-    callPrice = EuropeanBinomial(S, X, r, beta, sigma, T, N)
+    callPrice = EuropeanBinomial(S, option, r, beta, sigma, T, N)
     print("The N-Period European Binomial Price is = {0:.4f}".format(callPrice))
 
 
