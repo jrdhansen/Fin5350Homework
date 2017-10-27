@@ -64,7 +64,7 @@ def AmericanBinomial(option, S, r, beta, sigma, N):
 def main():
     X = 40
     T = 1.0
-    option = VanillaCallPayoff(X, T)
+    option = VanillaPutPayoff(X, T)
     S = 41
     r = 0.08
     N = 3
