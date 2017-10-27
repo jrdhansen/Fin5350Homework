@@ -4,10 +4,23 @@ import numpy as np
 from scipy.stats import binom
 
 
-# "Spot" is going to be a vector, "Strike" is going to be a scalar
-# This is vectorizing the payoff function
-def CallPayOff(Spot, Strike):
-    return np.maximum(Spot - Strike, 0.0)
+
+
+class VanillaPayoff(object):
+    def __init__(self, strike, expiry):
+        self.strike = strike
+        self.expiry = expiry
+        
+    def value(self):
+        pass
+    
+class VanillaCallPayoff(VanillaPayoff):
+    def value(self, spot):
+        return np.maximum(spot - self.strike, 0.0)
+    
+class VanillaPutPayoff(VanillaPayoff):
+    def value(self, spot):
+        return np.maximum(self.strike - spot, 0.0)
 
 
 # Prices options with the European Binomial model
@@ -25,7 +38,7 @@ def EuropeanBinomial(S, X, r, beta, sigma, T, N):
     pd = 1 - pu
     for i in range(numNodes):
         spotT = S * (u ** (numSteps - i)) * (d ** (i))
-        callT += CallPayOff(spotT, X) * binom.pmf(numSteps - i, numSteps, pu)
+        callT += option.value(spotT) * binom.pmf(numSteps - i, numSteps, pu)
     callPrice = callT * np.exp(-r * T)
     return callPrice
 
@@ -33,8 +46,9 @@ def EuropeanBinomial(S, X, r, beta, sigma, T, N):
 def main():
     S = 41
     X = 40
-    r = 0.08
     T = 1
+    option = VanillaCallPayoff(X, T)
+    r = 0.08
     N = 3
     beta = 0.0
     sigma = 0.30
