@@ -1,4 +1,8 @@
 
+## NOTE: I wrote this code in PyCharm for ease of text-editing. I haven't been able to figure out how to convert it to a .pyx file
+##       type, so I uploaded it as a .py file. Not ideal, but better than nothing. To my knowledge, the code works correctly when
+##       run as cython code.
+
 ## Binomial Model for American-style options in Cython
 ## Brough named this file deacon.pyx in the server (engine.pyx on gitHub)
 
