@@ -6,8 +6,9 @@
 ## Binomial Model for American-style options in Cython
 ## Brough named this file deacon.pyx in the server (engine.pyx on gitHub)
 
-
+## import the numpy library for both python and C++
 cimport numpy as np
+import numpy as np
 
 
 
