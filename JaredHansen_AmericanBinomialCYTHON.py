@@ -80,14 +80,15 @@ cdef class AmericanBinomialEngine(BinomialEngine):
     # "Ct" = option value at time t, "St" = spot value at time t
 
 
-        for i in range(numNodes):
-            spot_t[i] = spot * (u ** (self._nsteps - i)) * (d ** i)
+      for i in range(num_nodes):
+            spot_t[i] = data.spot * cpow(u, self._nsteps - i) * cpow(d, i)
             call_t[i] = option.payoff(spot_t[i])
 
-        for i in range((self._nsteps - 1), -1, -1):
+        for i in range(self._nsteps - 1, -1, -1):
             for j in range(i + 1):
-                call_t[j] = dpu * call_t[j] + dpd * call_t[j + 1]
+                call_t[j] = dpu * call_t[j] + dpd * call_t[j+1]
                 spot_t[j] = spot_t[j] / u
                 call_t[j] = np.maximum(call_t[j], option.payoff(spot_t[j]))
+
 
         return call_t[0]
