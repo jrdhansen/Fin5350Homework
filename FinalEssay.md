@@ -28,7 +28,7 @@ Do?"*, though, I came across a passage that completely contradicts this definiti
 
 Buchanan goes on to refute that economics should be a study of allocation
 of scarce resources and decision-making, but should focus on the study of markets.
-<br>
+<br> <br>
 
 For the remainder of this discussion we’ll rely on this determination of what economics is.
 From this we can say that an economist is one whose role is to study markets: their creation,
