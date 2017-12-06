@@ -115,8 +115,11 @@ proportional hazards assumption is satisfied (survival curves must be quantifiab
 versus women, or for other categorical variables within the data). On the other hand, RSF relies upon no such
 assumption. It probably comes as no surprise that the RSF algorithm beats the CPH model when examining data that
 do not meet the proportional hazards assumption. However, even when the data comfortably satisfy the proportional
-hazards assumption, RSF continues to beat CPH handily! This is one example among many as to why machine learning
-algorithms are the way of the future when it comes to data analysis.
+hazards assumption, RSF continues to beat CPH handily! This claim is substantiated by the findings of statisticians
+showing that RSF has consistently lower prediction error rates than CPH, performs well even when there were added
+noise variables (causing CPH to do poorly), and the computation time (when using the logrankrandom splitting rule)
+was the most performant (Ishwaran, 848). This is one example among many as to why machine learning algorithms are
+the way of the future when it comes to data analysis. 
 
 <br> <br>
 
@@ -140,5 +143,7 @@ ill-suited, antiquated methods, leading to an age of predictive power that will 
   Statistical Science 16.3 (2001): 199-231.
 
 - Buchanan, James M. "What should economists do?." Southern Economic Journal (1964): 213-222.
+
+- Ishwaran, Hemant, et al. "Random survival forests." The Annals of Applied Statistics (2008): 841-860.
 
 - Tukey, John W. "The future of data analysis." The Annals of Mathematical Statistics 33.1 (1962): 1-67.
