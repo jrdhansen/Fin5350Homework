@@ -3,6 +3,8 @@ A01439768 <br>
 Finance 5350, Dr. Brough <br>
 Fall 2017 <br>
 
+<br> <br>
+
 ## What Should Computational Economists Do?
 
 <br> <br>
