@@ -19,12 +19,13 @@ statistician. Prior to this course, the full extent of my formal education in ec
 of a basic macroeconomics course. One of the few things I remember from the class was a definition
 the professor gave of what economics is. To paraphrase him: “Economics is the study of how people
 allocate scarce resources and respond to incentives.” In reading Buchanan’s *"What Should Economists
-Do?"*, though, I came across a passage that completely contradicts this definition: “Economists
-should concentrate their attention on a particular form of human activity, and upon the various
-institutional arrangements that arise as a result of this form of activity. Man’s behavior in the
-market relationship, reflecting the propensity to truck and to barter, and the manifold variations
-in structure that this relationship can take; these are the proper subjects for the economist’s
-study.” (Buchanan, 214)  Buchanan goes on to refute that economics should be a study of allocation
+Do?"*, though, I came across a passage that completely contradicts this definition:
+> “Economists should concentrate their attention on a particular form of human activity, and upon the
+> various institutional arrangements that arise as a result of this form of activity. Man’s behavior in the
+> market relationship, reflecting the propensity to truck and to barter, and the manifold variations
+> in structure that this relationship can take; these are the proper subjects for the economist’s
+> study.” (Buchanan, 214)
+Buchanan goes on to refute that economics should be a study of allocation
 of scarce resources and decision-making, but should focus on the study of markets.
 
 
