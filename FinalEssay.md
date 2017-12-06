@@ -71,13 +71,14 @@ of model.
 <br> <br>
 
 My suggestion on how to progress in the right direction is to move toward machine learning algorithms.
-A simple maxim on which to base this migration would be a quote from the great John Tukey: “Far better an
-approximate answer to the right question, which is often vague, than an exact answer to the wrong question,
-which can always be made precise. Data analysis must progress by approximate answers, at best, since its
-knowledge of what the problem really is will at best be approximate.” (Tukey, 13)  By trying to answer the
-wrong questions precisely, economics has become a science that often doesn’t produce viable results.
-Statisticians are as much to blame for the ridiculous assumptions of some models as economists are. If the
-mathematical validity of a model can be “proven” then it is automatically given more credibility. This
+A simple maxim on which to base this migration would be a quote from the great John Tukey:
+> “Far better an approximate answer to the right question, which is often vague, than an exact answer to
+> the wrong question, which can always be made precise. Data analysis must progress by approximate answers,
+> at best, since its knowledge of what the problem really is will at best be approximate.” (Tukey, 13)
+
+By trying to answer the wrong questions precisely, economics has become a science that often doesn’t produce
+viable results. Statisticians are as much to blame for the ridiculous assumptions of some models as economists
+are. If the mathematical validity of a model can be “proven” then it is automatically given more credibility. This
 fallacious thinking has been perpetuated by statisticians, and adopted by economists, for decades. I’m of the
 belief that predictive accuracy should trump mathematical provability when it comes to modeling. After all,
 is the point to obtain more correct predictions, or to be able to justify one’s model on the basis of
