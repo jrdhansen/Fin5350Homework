@@ -12,7 +12,6 @@ of what economics is. Then we may proceed into discussing what the role of an ec
 and what part computation plays in that role.
 
 <br> <br>
-<br> <br>
 
 As a necessary (but inherently cowardly) caveat, I must admit that I am very unlearned
 when it comes to formal economic and financial theory. As such, I will be approaching the topic
@@ -32,7 +31,6 @@ Buchanan goes on to refute that economics should be a study of allocation
 of scarce resources and decision-making, but should focus on the study of markets.
 
 <br> <br>
-<br> <br>
 
 For the remainder of this discussion we’ll rely on this determination of what economics is.
 From this we can say that an economist is one whose role is to study markets: their creation,
@@ -46,7 +44,6 @@ occur in our brains when we make choices. No, I think that economics ought to re
 is now, studying markets using the tools of modeling. The modeling itself, though, is where I think that
 economists have a significant amount of room for improvement. 
 
-<br> <br>
 <br> <br>
 
 It is fairly safe to say that most people with any amount of exposure to economics would consider
@@ -72,7 +69,6 @@ problem lies not in modeling itself, but in the assumptions that are made in ord
 of model.
 
 <br> <br>
-<br> <br>
 
 My suggestion on how to progress in the right direction is to move toward machine learning algorithms.
 A simple maxim on which to base this migration would be a quote from the great John Tukey: “Far better an
@@ -91,7 +87,6 @@ highest possible predictive accuracy, then the means by which we arrive there do
 reproducible.
 
 <br> <br>
-<br> <br>
 
 Another one of the most beautiful things that machine learning does in this case is that it allows us
 to throw asinine assumptions out the window. Leo Breiman, the father of the random forests algorithm, made a
@@ -103,7 +98,6 @@ to rely upon statistical and mathematical modeling in their work, they ought to 
 algorithms. They don’t necessitate any unreasonable assumptions, and they provide more accurate results in
 almost any circumstance.
 
-<br> <br>
 <br> <br>
 
 A personal insight I can provide on this topic has to do with survival analysis. (Although, my research
@@ -119,7 +113,6 @@ hazards assumption, RSF continues to beat CPH handily! This is one example among
 algorithms are the way of the future when it comes to data analysis.
 
 <br> <br>
-<br> <br>
 
 Computation is not just necessary in the role of an economist, it is essential. In approaching the study
 of enormous quantities of market data scientifically, mathematical and statistical modeling is by far the best
@@ -130,8 +123,6 @@ economics will experience significant growth as an academic discipline, companie
 higher profits, and the vast amounts of data available to the world will no longer be relegated to analysis by
 ill-suited, antiquated methods, leading to an age of predictive power that will forever advance the human race.
 
-<br> <br>
-<br> <br>
 <br> <br>
 <br> <br>
 
