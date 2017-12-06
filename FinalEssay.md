@@ -25,6 +25,7 @@ Do?"*, though, I came across a passage that completely contradicts this definiti
 > market relationship, reflecting the propensity to truck and to barter, and the manifold variations
 > in structure that this relationship can take; these are the proper subjects for the economist’s
 > study.” (Buchanan, 214)
+
 Buchanan goes on to refute that economics should be a study of allocation
 of scarce resources and decision-making, but should focus on the study of markets.
 
