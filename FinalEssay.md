@@ -91,12 +91,14 @@ reproducible.
 
 Another one of the most beautiful things that machine learning does in this case is that it allows us
 to throw asinine assumptions out the window. Leo Breiman, the father of the random forests algorithm, made a
-telling comment on this topic. “With data gathered from uncontrolled observations on complex systems involving
-unknown physical, chemical, or biological mechanisms, the a priori assumption that nature would generate the
-data through a parametric model selected by the statistician can result in questionable conclusions that cannot
-be substantiated by appeal to goodness-of-fit tests and residual analysis.” (Breiman, 204)  If economists are
-to rely upon statistical and mathematical modeling in their work, they ought to rely on machine learning
-algorithms. They don’t necessitate any unreasonable assumptions, and they provide more accurate results in
+telling comment on this topic.
+> “With data gathered from uncontrolled observations on complex systems involving unknown physical, chemical,
+> or biological mechanisms, the a priori assumption that nature would generate the data through a parametric
+> model selected by the statistician can result in questionable conclusions that cannot be substantiated by
+> appeal to goodness-of-fit tests and residual analysis.” (Breiman, 204) 
+
+If economists are to rely upon statistical and mathematical modeling in their work, they ought to rely on machine
+learning algorithms. They don’t necessitate any unreasonable assumptions, and they provide more accurate results in
 almost any circumstance.
 
 <br> <br>
