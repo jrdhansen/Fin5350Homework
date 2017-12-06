@@ -9,7 +9,8 @@ Before diving headfirst into the argument of the role of a computational economi
 we must address the foundation upon which this discussion will be based: namely, a definition
 of what economics is. Then we may proceed into discussing what the role of an economist is,
 and what part computation plays in that role.
-	As a necessary (but inherently cowardly) caveat, I must admit that I am very unlearned
+
+As a necessary (but inherently cowardly) caveat, I must admit that I am very unlearned
 when it comes to formal economic and financial theory. As such, I will be approaching the topic
 with a fair amount of naïveté, and with the biased eyes and training of a computational
 statistician. Prior to this course, the full extent of my formal education in economics consisted
@@ -23,7 +24,8 @@ market relationship, reflecting the propensity to truck and to barter, and the m
 in structure that this relationship can take; these are the proper subjects for the economist’s
 study.” (Buchanan, 214)  Buchanan goes on to refute that economics should be a study of allocation
 of scarce resources and decision-making, but should focus on the study of markets.
-	 For the remainder of this discussion we’ll rely on this determination of what economics is.
+
+For the remainder of this discussion we’ll rely on this determination of what economics is.
 From this we can say that an economist is one whose role is to study markets: their creation,
 behavior, regulation, and all other aspects. However, what role should computation play in this study?
 To paraphrase Buchanan, economists that use mathematical modeling as their primary tool essentially
@@ -34,7 +36,8 @@ case, then neuroscientists are the true economists since they examine the physic
 occur in our brains when we make choices. No, I think that economics ought to remain similar to how it
 is now, studying markets using the tools of modeling. The modeling itself, though, is where I think that
 economists have a significant amount of room for improvement. 
-	It is fairly safe to say that most people with any amount of exposure to economics would consider
+
+It is fairly safe to say that most people with any amount of exposure to economics would consider
 it a science since it is studied using the scientific method. Systematic observation, measurement,
 experiments, and the formulation, testing, and modification of hypotheses are all inherent to economic
 studies. The thing that I believe that Buchanan takes issue with is that the assumptions that discard the
@@ -55,7 +58,8 @@ we could arguably tie the decisions of any human on the earth to the market bein
 require both information we can’t procure, as well as computational power not yet available to us. The
 problem lies not in modeling itself, but in the assumptions that are made in order to utilize a certain kind
 of model.
-	My suggestion on how to progress in the right direction is to move toward machine learning algorithms.
+
+My suggestion on how to progress in the right direction is to move toward machine learning algorithms.
 A simple maxim on which to base this migration would be a quote from the great John Tukey: “Far better an
 approximate answer to the right question, which is often vague, than an exact answer to the wrong question,
 which can always be made precise. Data analysis must progress by approximate answers, at best, since its
@@ -69,8 +73,9 @@ is the point to obtain more correct predictions, or to be able to justify one’
 mathematical construction? Although many machine learning algorithms are more or a less a “black box” into
 which it can be difficult to see, this should not matter. If the chief goal of a model is to achieve the
 highest possible predictive accuracy, then the means by which we arrive there don’t matter so long as they’re
-reproducible. 
-	Another one of the most beautiful things that machine learning does in this case is that it allows us
+reproducible.
+
+Another one of the most beautiful things that machine learning does in this case is that it allows us
 to throw asinine assumptions out the window. Leo Breiman, the father of the random forests algorithm, made a
 telling comment on this topic. “With data gathered from uncontrolled observations on complex systems involving
 unknown physical, chemical, or biological mechanisms, the a priori assumption that nature would generate the
@@ -79,7 +84,8 @@ be substantiated by appeal to goodness-of-fit tests and residual analysis.” (B
 to rely upon statistical and mathematical modeling in their work, they ought to rely on machine learning
 algorithms. They don’t necessitate any unreasonable assumptions, and they provide more accurate results in
 almost any circumstance.
-	A personal insight I can provide on this topic has to do with survival analysis. (Although, my research
+
+A personal insight I can provide on this topic has to do with survival analysis. (Although, my research
 is specifically on survival analysis in biomedical studies, the same principle can be applied to duration
 analysis in economic studies.) In my research, I’ve been examining whether an algorithm known as random survival
 forests (RSF) outperforms the tried-and-true Cox Proportional Hazards (CPH) model when it comes to predicting
@@ -90,7 +96,8 @@ assumption. It probably comes as no surprise that the RSF algorithm beats the CP
 do not meet the proportional hazards assumption. However, even when the data comfortably satisfy the proportional
 hazards assumption, RSF continues to beat CPH handily! This is one example among many as to why machine learning
 algorithms are the way of the future when it comes to data analysis.
-	Computation is not just necessary in the role of an economist, it is essential. In approaching the study
+
+Computation is not just necessary in the role of an economist, it is essential. In approaching the study
 of enormous quantities of market data scientifically, mathematical and statistical modeling is by far the best
 resource available for an economist. What needs to change are the models being used and their underlying
 assumptions. Economists must first stomach that the predictive accuracy and reproducible results of machine
