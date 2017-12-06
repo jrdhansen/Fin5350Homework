@@ -6,7 +6,7 @@ Fall 2017 <br>
 ## What Should Computational Economists Do?
 
 
-Before diving headfirst into the argument of the role of a computational economist,
+⋅⋅⋅Before diving headfirst into the argument of the role of a computational economist,
 we must address the foundation upon which this discussion will be based: namely, a definition
 of what economics is. Then we may proceed into discussing what the role of an economist is,
 and what part computation plays in that role.
